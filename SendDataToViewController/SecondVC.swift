@@ -16,7 +16,7 @@ class SecondVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         secondLabel.text =  stringPassed
-        secondLabel.text = stringPassed + "my Integer: \(intPassed)"
+        secondLabel.text = stringPassed + "my Inte: \(intPassed)"
         
     }
 
