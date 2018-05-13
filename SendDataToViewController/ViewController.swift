@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     @IBAction func goButton(_ sender: Any) {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "SecondVC") as! SecondVC
-       // myVC.stringPassed = mylable.text!
+       // myVC.stringPassed = mylablee.text!
         //mylable.text = myInt
         myVC.intPassed = myInt
         navigationController?.pushViewController(myVC, animated: true)
